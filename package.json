@@ -1,0 +1,29 @@
+{
+  "name": "withnailandi",
+  "version": "1.0.0",
+  "description": "A module to return text from the transcript of withnailandi",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/No9/withnailandi.git"
+  },
+  "keywords": [
+    "withnailandi",
+    "transcript"
+  ],
+  "author": "Anton Whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/withnailandi/issues"
+  }
+}
