@@ -1,10 +1,11 @@
 exports.getline = get_line;
 
 var fs = require('fs');
-var hasLine = false;
+
 
 
 function get_line(line_no, count, callback) {
+    var hasLine = false;
     var filename = __dirname + '/withnailandi.txt';
     var stream = fs.createReadStream(filename, {
       flags: 'r',
